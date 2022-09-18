@@ -5,4 +5,31 @@ df
 b
 d
 gn
-gfb 
+gfb
+
+
+ds
+v
+df
+b 
+dfb 
+gf
+ 
+  fg 
+  bf
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  fbdddddddddddddddddddddddddddddddddffdfbdbbfbfbffbfdfd
