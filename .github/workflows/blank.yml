@@ -1,0 +1,17 @@
+name: PR Checker 
+
+on:
+  pull_request:
+    types: [opened, labeled, unlabeled, synchronize]
+    branches: [ "main" ]
+
+jobs:
+  pr-tag-validator:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: robin-thomas-e1391/PR-title-validator@master
+      with:
+          regex: '"UCOA | Compliance | Category | Product Manager | Technical Product Manager"' 
+          regex_options: 'i' 
+          custom_non_match_error: 'valid tags  are ... UCOA | Compliance | Category | Product Manager | Technical Product Manager'
